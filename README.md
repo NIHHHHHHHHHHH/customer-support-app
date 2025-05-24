@@ -2,7 +2,7 @@
 
 A sleek, desktop-only customer support chat application built with ReactJS and Tailwind CSS, featuring an AI Copilot panel. Designed to replicate a professional inbox and conversation interface like modern CRM or helpdesk platforms.
 
-- 🔗 Live Demo: ai-copilot-chat.vercel.app.
+- 🔗 Live Demo: https://nihhhhhhhhhhh.github.io/customer-support-app/
 - 👨‍💻 Author: Nihal Gavandi.
 
 ---
