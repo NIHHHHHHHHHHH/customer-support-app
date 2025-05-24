@@ -2,8 +2,8 @@
 
 A sleek, desktop-only customer support chat application built with ReactJS and Tailwind CSS, featuring an AI Copilot panel. Designed to replicate a professional inbox and conversation interface like modern CRM or helpdesk platforms.
 
-- 🔗 Live Demo: https://nihhhhhhhhhhh.github.io/customer-support-app/
-- 👨‍💻 Author: Nihal Gavandi.
+🔗 **[Live Demo](https://nihhhhhhhhhhh.github.io/customer-support-app/)**  
+👨‍💻 **Author:** [Nihal Gavandi](https://github.com/nihhhhhhhhhhh)
 
 ---
 
@@ -16,17 +16,19 @@ A sleek, desktop-only customer support chat application built with ReactJS and T
 - 🔍 **Details View** for viewing customer/conversation info.
 - ✅ **Typing Indicator**, **Message List**, and **Input Field**.
 - 📚 Modular component structure and clean state management.
-
 ---
 
 ## 🧩 Tech Stack
 
-- **Frontend:** React.js (Vite or CRA)
-- **Styling:** Tailwind CSS
-- **State Management:** Local state (via hooks)
-- **AI & Data:** Mock data (`mockData.js`) and AI service stub (`aiService.js`)
+| Area        | Tech Used            |
+|-------------|----------------------|
+| Frontend    | React.js (Vite) |
+| Styling     | Tailwind CSS         |
+| State Mgmt  | React Hooks (local state) |
+| AI/Data     | Mock data (`mockData.js`), Stubbed AI logic (`aiService.js`) |
 
 ---
+
 
 ## 📁 Project Structure
 
@@ -94,6 +96,8 @@ npm run dev
 
 ---
 
+⚡ Feel free to fork, star, and contribute!
+Built with ❤️ by Nihal Gavandi
 
 
 
