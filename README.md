@@ -1,12 +1,100 @@
-# React + Vite
+# AI Copilot Chat Support App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, desktop-only customer support chat application built with ReactJS and Tailwind CSS, featuring an AI Copilot panel. Designed to replicate a professional inbox and conversation interface like modern CRM or helpdesk platforms.
 
-Currently, two official plugins are available:
+- 🔗 Live Demo: ai-copilot-chat.vercel.app.
+- 👨‍💻 Author: Nihal Gavandi.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📨 **Inbox View** for managing multiple customer conversations.
+- 💬 **Conversation Panel** to view and respond to customer queries.
+- 🤖 **AI Copilot Sidebar** to get AI-suggested replies based on conversation context.
+- 📋 **Quick Actions** panel for frequent operations.
+- 🔍 **Details View** for viewing customer/conversation info.
+- ✅ **Typing Indicator**, **Message List**, and **Input Field**.
+- 📚 Modular component structure and clean state management.
+
+---
+
+## 🧩 Tech Stack
+
+- **Frontend:** React.js (Vite or CRA)
+- **Styling:** Tailwind CSS
+- **State Management:** Local state (via hooks)
+- **AI & Data:** Mock data (`mockData.js`) and AI service stub (`aiService.js`)
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+├── assets/                # Images, icons, etc.
+├── components/            # Reusable UI Components
+│   ├── AICopilot.jsx
+│   ├── ConversationList.jsx
+│   ├── ConversationView.jsx
+│   ├── MessageInput.jsx
+│   ├── ...
+├── data/
+│   └── mockData.js        # Sample mock messages
+├── hooks/                 # Custom hooks for logic separation
+│   ├── useAIService.js
+│   ├── useAppState.js
+│   └── useChatMessages.js
+├── services/
+│   └── aiService.js       # AI assistant logic (stubbed)
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+---
+
+## 🛠️ Installation & Setup
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/ai-copilot-chat-app.git
+cd ai-copilot-chat-app
+```
+
+### Install dependencies
+```bash
+npm install
+```
+
+### Start development server
+```bash
+npm run dev
+```
+
+---
+
+📏 Responsiveness
+
+- ✅ Responsive for desktop viewports (≥1024px)
+- ❌ Not optimized for mobile or tablet screens
+
+
+---
+
+🧪 Future Enhancements
+
+ - Mobile responsiveness
+ - Backend integration with real-time data
+ - Authentication and user roles
+ - Drag-and-drop chat assignment
+ - Enhanced AI suggestions with OpenAI API
+
+---
+
+
+
+
+
